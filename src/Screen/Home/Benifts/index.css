@@ -1,0 +1,41 @@
+.benefits_img img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.bgvt_total_supply {
+  border-bottom: 3px solid rgb(177, 63, 0);
+  border-left: 3px solid rgb(177, 63, 0);
+  border-bottom-left-radius: 20px;
+}
+
+.bgvt_total_supply1 {
+  border-top: 3px solid rgb(177, 63, 0);
+  border-right: 3px solid rgb(177, 63, 0);
+  border-top-right-radius: 20px;
+}
+
+.tottal_suply_img{
+    width: 170px;
+    height: 140px;
+    padding: 12px;
+}
+@media (max-width: 414px) {
+  #trading_icon {
+    margin-top: 11%;
+  }
+
+  .tottal_suply_img{
+    height: 100px;
+    width: 100px;
+  }
+  .total_supply_text {
+    font-size: 12px;
+    margin-top: -50px;
+  }
+  #benifts{
+    margin-top: -80%;
+  }
+
+}

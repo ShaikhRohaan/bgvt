@@ -1,0 +1,47 @@
+.bg_img {
+  background-image: url(../../../Image/Rectangle\ 73.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: -20px;
+  width: 100%;
+}
+.text_bg {
+  padding-top: 15%;
+  color: white;
+}
+
+.text_bg h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.text_bg p {
+  font-size: 20px;
+}
+
+.imgtwo img {
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+}
+
+.bg_imgtwo img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 414px) {
+  .text_bg h1 {
+    font-size: 30px;
+  }
+  .bg_imgtwo img {
+    width: 130px;
+    margin-top: -35%;
+  }
+  /* #made_img{
+        padding-top: -100%;
+    } */
+  .text_bg h1 {
+    font-size: 30px;
+  }
+}

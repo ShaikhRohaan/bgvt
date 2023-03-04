@@ -1,0 +1,107 @@
+.bit_main {
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.bit_text h2 {
+  /* text-align: center; */
+  color: white;
+  padding-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.bit_text p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bit_img img {
+  width: 100%;
+  height: auto;
+}
+
+.bgvt_main_price {
+  justify-content: center;
+  gap: 30px;
+}
+
+.bgvt_price_img img {
+  width: 100%;
+  height: 370px;
+  padding-top: 50px;
+}
+
+.bgvt_card {
+  border: 2px solid rgb(177, 63, 0);
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: rgba(177,63,0,0.5);
+}
+
+.contract_address {
+  background-color: rgb(177, 63, 0);
+  border-radius: 8px;
+}
+.contract_address H1 {
+  color: white;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 750px) and (min-width: 500px) {
+  .bit_img img {
+    margin-top: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  .bit_text h2 {
+    font-size: 22px;
+  }
+}
+
+#contact-address_resp{
+  font-size: 28px;
+}
+
+.bg_video video {
+  width: 100%;
+  height: auto;
+  /* position: absolute; */
+  z-index: -3;
+  filter: blur(2px);
+}
+
+@media (max-width: 1000px) and (min-width: 414px) {
+  #contact-address_resp {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 798px) and (min-width: 420px) {
+  #contact-address_resp {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 414px) {
+  #contact-address_resp {
+    font-size: 16px;
+  }
+  .bg_video video {
+    height: 1050px;
+  }
+
+  /* .bg_video video{
+    display: none;
+  }
+   */
+
+}
+
+@media (max-width: 414px) {
+  #abcp {
+    margin-right: 40px;
+    margin-top: -100px;
+  }
+}

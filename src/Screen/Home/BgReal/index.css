@@ -1,0 +1,28 @@
+.Real_Mango_text{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.mango_real_img{
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.real_mango_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.real_mango_img img:hover{
+    transform: scale(1.03);
+}
+.Real_Mango_text h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Real_Mango_text h3{
+    font-family: 'Times New Roman', Times, serif;
+}
